@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpteros_selection_parser.a  CMakeFiles/pteros_selection_parser.dir/selection_parser.cpp.o
+/usr/bin/ranlib libpteros_selection_parser.a

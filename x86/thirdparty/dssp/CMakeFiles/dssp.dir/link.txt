@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdssp.a  CMakeFiles/dssp.dir/dssp.cpp.o CMakeFiles/dssp.dir/mas.cpp.o CMakeFiles/dssp.dir/primitives-3d.cpp.o CMakeFiles/dssp.dir/structure.cpp.o CMakeFiles/dssp.dir/utils.cpp.o
+/usr/bin/ranlib libdssp.a

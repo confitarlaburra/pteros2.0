@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -std=c++0x -Wl,--no-as-needed -fopenmp -O3 -DNDEBUG -march=native  -s -shared -Wl,-soname,libsasa.so -o libsasa.so CMakeFiles/sasa.dir/sasa.cpp.o -lboost_system -lboost_date_time 

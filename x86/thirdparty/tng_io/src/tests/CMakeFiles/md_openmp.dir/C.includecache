@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../thirdparty/tng_io/include/tng/tng_io.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+tng_io_fwd.h
+../thirdparty/tng_io/include/tng/tng_io_fwd.h
+inttypes.h
+-
+stdint.h
+-
+
+../thirdparty/tng_io/include/tng/tng_io_fwd.h
+
+/home/jgarate/software/pteros/thirdparty/tng_io/src/tests/md_openmp.c
+tng/tng_io.h
+/home/jgarate/software/pteros/thirdparty/tng_io/src/tests/tng/tng_io.h
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+math.h
+-
+omp.h
+-
+

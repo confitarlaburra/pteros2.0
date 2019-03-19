@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmolfile_plugins.a  CMakeFiles/molfile_plugins.dir/pdbplugin.c.o CMakeFiles/molfile_plugins.dir/dcdplugin.c.o CMakeFiles/molfile_plugins.dir/mol2plugin.c.o CMakeFiles/molfile_plugins.dir/xyzplugin.c.o CMakeFiles/molfile_plugins.dir/tngplugin.cpp.o
+/usr/bin/ranlib libmolfile_plugins.a

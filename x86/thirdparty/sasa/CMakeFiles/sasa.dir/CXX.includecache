@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jgarate/software/pteros/thirdparty/sasa/msvccompat.h
+
+/home/jgarate/software/pteros/thirdparty/sasa/sasa.cpp
+cstdlib
+-
+cstdio
+-
+cmath
+-
+pmmintrin.h
+-
+sasa.h
+/home/jgarate/software/pteros/thirdparty/sasa/sasa.h
+msvccompat.h
+/home/jgarate/software/pteros/thirdparty/sasa/msvccompat.h
+vectorize_sse.h
+/home/jgarate/software/pteros/thirdparty/sasa/vectorize_sse.h
+
+/home/jgarate/software/pteros/thirdparty/sasa/sasa.h
+
+/home/jgarate/software/pteros/thirdparty/sasa/vectorize_sse.h
+pmmintrin.h
+-
+

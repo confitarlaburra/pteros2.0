@@ -1,0 +1,58 @@
+Install in centos
+
+
+compile cmake/3.13.3 and addit as a module
+yum install eigen3-devel (then "cd /usr/include" and "mv eigen3/Eigen .)
+yum install boost-devel
+yum install spdlog 
+
+In ubuntu:
+
+sudo apt-get install g++ cmake libeigen3-dev libboost-all-dev  git doxygen 
+
+and the same with eigen "cd /usr/include" and "mv eigen3/Eigen ."
+
+cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jgarate/opt/pteros2.0 -DWITH_POWERSASA="ON" -DWITH_PYTHON="OFF"
+
+and then modify in installation directory
+
+#ifndef PTEROS_H
+#define PTEROS_H
+
+#include "core/atom.h"
+#include "core/atom_proxy.h"
+#include "core/distance_search.h"
+#include "core/distance_search_within.h"
+#include "core/force_field.h"
+#include "core/grid.h"
+#include "core/logging.h"
+#include "core/mol_file.h"
+#include "core/periodic_box.h"
+#include "core/pteros_error.h"
+#include "core/selection.h"
+#include "core/system.h"
+#include "core/typedefs.h"
+#include "core/utilities.h"
+#include "core/version.h"
+#include "analysis/compiled_analysis_task.h"
+#include "analysis/frame_info.h"
+#include "analysis/jump_remover.h"
+#include "analysis/options.h"
+#include "analysis/task_base.h"
+#include "analysis/task_plugin.h"
+#include "analysis/trajectory_reader.h"
+#include "extras/gnm.h"
+#include "extras/membrane.h"
+#include "extras/solvate.h"
+#include "extras/substructure_search.h"
+
+
+#include "Eigen/Core"
+
+// nees to install this
+#include <spdlog/fmt/fmt.h>
+
+#endif
+
+
+
